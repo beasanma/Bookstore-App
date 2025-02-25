@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+
+  padding-top: 20px;
+  margin-bottom: 20px;
+  background: white;
+
+  .image_header {
+    margin-right: 0;
+    width: 250px;
+  }
+}

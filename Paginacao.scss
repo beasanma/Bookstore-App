@@ -1,0 +1,22 @@
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .before {
+    color: #646cff;
+    cursor: pointer;
+    svg {
+      margin-left: 3px;
+    }
+  }
+
+  .after {
+    color: #646cff;
+    cursor: pointer;
+    svg {
+      margin-left: 3px;
+    }
+  }
+}

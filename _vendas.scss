@@ -1,0 +1,52 @@
+.vendas_container {
+  width: 100%;
+  margin: 0 auto;
+
+  .vendas_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+
+    .venda_desc {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      border-left: 3px solid #f05c2b;
+      padding: 0 18px;
+      gap: 2px;
+
+      .livros {
+        font-size: 14px;
+        font-weight: 700;
+        color: black;
+      }
+
+      .cliente {
+        font-size: 12px;
+        color: black;
+      }
+
+      .data{
+        font-size: 10px;
+        color: #A1A1A1;
+      }
+    }
+
+    .venda_book img {
+      display: flex;
+      justify-content: center;
+      width: 50px;
+      height: 77px;
+      margin-left: auto;
+      border-radius: 3px;
+      box-shadow: 0 4px 6px 0 #00000080;
+    }
+  }
+}
+
+hr {
+  max-width: 390px;
+  margin: 20px 0;
+  border: 1px solid #D9D9D9;
+}

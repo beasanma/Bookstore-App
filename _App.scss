@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column; //assegura que o conteúdo esteja vertical (mete header no topo quando não tem conteúdo)
+  box-sizing: border-box;
+  background-color: white;
+  padding-bottom: 80px;
+  width: 100%;
+  height: 100%;
+}

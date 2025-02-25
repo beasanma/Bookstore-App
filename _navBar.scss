@@ -1,0 +1,30 @@
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid #999;
+
+  .nav_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+
+    a {
+      color: #999;
+      text-decoration: none;
+
+      &:hover, &.active { //.active - remains blue while in that page
+        color: #26a9e0;
+      }
+    }
+  }
+}

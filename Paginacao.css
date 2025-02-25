@@ -1,0 +1,22 @@
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.paginacao .before {
+  color: #646cff;
+  cursor: pointer;
+}
+.paginacao .before svg {
+  margin-left: 3px;
+}
+.paginacao .after {
+  color: #646cff;
+  cursor: pointer;
+}
+.paginacao .after svg {
+  margin-left: 3px;
+}
+
+/*# sourceMappingURL=Paginacao.css.map */
