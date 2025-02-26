@@ -13,7 +13,7 @@ It allows users to:
 - React.js
 - SCSS
 - TypeScript
-- - Postman (API testing)
+- Postman (API testing)
 
 ## Install Dependencies
 ```sh
