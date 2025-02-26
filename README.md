@@ -10,9 +10,10 @@ It allows users to:
 - View book details, including author, date of publication and synopsis
 
 ## Technologies
-React.js
-SCSS
-TypeScript
+- React.js
+- SCSS
+- TypeScript
+- - Postman (API testing)
 
 ## Install Dependencies
 ```sh
